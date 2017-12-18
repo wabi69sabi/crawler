@@ -19,3 +19,7 @@ Solved the issue in Debian with first installing libgdbm-dev:
 ### Notes
 
 GDBM does not really index in order, so check out the doc to find a way to fix the index.
+
+### Sort
+
+Instead of sorting it might be smarter to search for topics.
