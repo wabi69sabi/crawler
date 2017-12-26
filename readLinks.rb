@@ -9,5 +9,9 @@ gdbm.each_pair do |index, link|
   cleaned << "#{index} --> #{link}"
 end
 
+# gdbm.keys.sort.each { |key| puts gdbm[key] }
+
+p gdbm.keys.sort
+
 puts cleaned.sort
 gdbm.close

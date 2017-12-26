@@ -14,7 +14,7 @@ links_a = doc.css("a")
 puts "<link> : #{links.length}"
 puts "<a> : #{links_a.length}"
 
-$gdbm = GDBM.new("links.db")
+$gdbm = GDBM.new("new.db") # --> This filename needs to be altered dynamically
 
 def mine_links(array)
   array.each_with_index do |link, index|
